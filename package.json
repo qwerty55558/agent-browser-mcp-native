@@ -1,0 +1,35 @@
+{
+  "name": "agent-browser-mcp-native",
+  "version": "0.1.0",
+  "description": "MCP server for Vercel agent-browser CLI (native CDP mode)",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "browser",
+    "agent-browser",
+    "chrome",
+    "cdp",
+    "automation",
+    "ai-agent",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qwerty55558/agent-browser-mcp-native"
+  },
+  "bin": {
+    "agent-browser-mcp-native": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "doc.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
