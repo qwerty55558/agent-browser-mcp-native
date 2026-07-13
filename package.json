@@ -1,6 +1,6 @@
 {
   "name": "agent-browser-mcp-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "[DEPRECATED] Use the official `agent-browser mcp` instead. MCP server for Vercel agent-browser CLI (native CDP mode).",
   "type": "module",
   "license": "MIT",
