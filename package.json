@@ -23,7 +23,8 @@
   },
   "files": [
     "src",
-    "doc.md"
+    "doc.md",
+    "MIGRATION.md"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
