@@ -1,3 +1,26 @@
+> ⚠️ **DEPRECATED — 이 프로젝트는 더 이상 유지보수하지 않습니다.**
+>
+> Vercel `agent-browser`가 v0.28.0(2026-06-16)부터 **MCP 서버를 공식 내장**했습니다 (`agent-browser mcp`). 이 wrapper의 모든 기능은 공식 MCP의 완전한 상위호환으로 대체되었습니다. 아래 설정으로 이전하세요.
+>
+> ```json
+> {
+>   "mcpServers": {
+>     "agent-browser": {
+>       "command": "agent-browser",
+>       "args": ["mcp", "--tools", "core,state,debug,tabs"],
+>       "env": {
+>         "AGENT_BROWSER_EXECUTABLE_PATH": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+>       }
+>     }
+>   }
+> }
+> ```
+>
+> - 전체 기능: `"args": ["mcp", "--tools", "all"]`
+> - 자체 Chromium 사용 시 `env` 블록 제거 후 최초 1회 `agent-browser install`
+> - `--native` 플래그는 불필요 (v0.20.0부터 native가 기본이자 유일 모드)
+> - 자세한 이전 가이드: [MIGRATION.md](./MIGRATION.md)
+
 # agent-browser-mcp-native
 
 > Vercel `agent-browser` CLI를 Native(CDP) 모드로 실행하는 MCP 서버

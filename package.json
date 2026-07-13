@@ -1,7 +1,7 @@
 {
   "name": "agent-browser-mcp-native",
   "version": "0.1.0",
-  "description": "MCP server for Vercel agent-browser CLI (native CDP mode)",
+  "description": "[DEPRECATED] Use the official `agent-browser mcp` instead. MCP server for Vercel agent-browser CLI (native CDP mode).",
   "type": "module",
   "license": "MIT",
   "keywords": [
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/qwerty55558/agent-browser-mcp-native"
+    "url": "git+https://github.com/qwerty55558/agent-browser-mcp-native.git"
   },
   "bin": {
-    "agent-browser-mcp-native": "./src/index.js"
+    "agent-browser-mcp-native": "src/index.js"
   },
   "files": [
     "src",
